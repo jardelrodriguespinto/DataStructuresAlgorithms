@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649d5eab-8ae2-41b3-b352-64bd9f47c105" name="Changes" comment="revertendo elementos em array">
+    <list default="true" id="649d5eab-8ae2-41b3-b352-64bd9f47c105" name="Changes" comment="Exercicios Array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrays/LearningArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/LearningArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720355264797</updated>
       <workItem from="1720355265876" duration="5594000" />
-      <workItem from="1720395840671" duration="3827000" />
+      <workItem from="1720395840671" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="Learning Data Structures and Algorithms">
       <option name="closed" value="true" />
@@ -79,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720400008538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exercicios Array">
+      <option name="closed" value="true" />
+      <created>1720400928083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720400928083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +96,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learning Data Structures and Algorithms" />
     <MESSAGE value="revertendo elementos em array" />
-    <option name="LAST_COMMIT_MESSAGE" value="revertendo elementos em array" />
+    <MESSAGE value="Exercicios Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

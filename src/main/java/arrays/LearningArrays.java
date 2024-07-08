@@ -46,11 +46,28 @@ public class LearningArrays
     }
 
     /// Palindrome Check
-    public boolean solve(String s)
+    public static boolean solve(String s)
     {
 
         // define 2 pointers (forward pointer and backward pointer and compare characters accordingly)
+        s = s.toLowerCase();
 
-        return false;
+        char[] arr = s.toCharArray();
+
+        int begin = 0;
+        int end = arr.length - 1;
+
+        while (begin < end)
+        {
+            if (arr[begin] == arr[end])
+            {
+                begin++;
+                end--;
+            }
+            else
+                return false;
+        }
+
+        return true;
     }
 }
