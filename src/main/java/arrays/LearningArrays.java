@@ -24,4 +24,33 @@ public class LearningArrays
         nums[index1] = nums[index2];
         nums[index2] = temp;
     }
+
+    //Anagram
+    public static boolean solve(char[] s1, char[] s2)
+    {
+        if (s1.length != s2.length)
+            return false;
+
+        boolean flag = true;
+
+        for (int i = 0; i < s1.length; i++)
+        {
+            if (s1[i] == s2[i])
+            {
+                flag = false;
+                break;
+            }
+        }
+
+        return flag;
+    }
+
+    /// Palindrome Check
+    public boolean solve(String s)
+    {
+
+        // define 2 pointers (forward pointer and backward pointer and compare characters accordingly)
+
+        return false;
+    }
 }
