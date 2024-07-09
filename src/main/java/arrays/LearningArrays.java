@@ -70,4 +70,19 @@ public class LearningArrays
 
         return true;
     }
+
+    public static int reverse(int n) {
+
+        int reversed = 0;
+        // algorithm here
+
+        while(n != 0){
+            int remainder = n % 10;
+            reversed = reversed * 10 + remainder;
+            n /= 10;
+        }
+
+        return reversed;
+    }
+
 }
