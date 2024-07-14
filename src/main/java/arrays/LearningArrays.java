@@ -1,5 +1,12 @@
 package arrays;
 
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Stream;
+
 public class LearningArrays
 {
     // this is the algorithm that reverses the input array (nums)
@@ -85,4 +92,76 @@ public class LearningArrays
         return reversed;
     }
 
+    public static int binarySearch(int[] nums, int target){
+
+        return -1;
+    }
+
+    public static List<String> stringMatching(String[] words) {
+        List<String> list = new ArrayList<>();
+
+        Arrays.sort(words);
+
+        for (int i = 0; i < words.length; i++)
+        {
+            for (int j = i + 1; j < words.length; j++)
+            {
+                if (words[j].contains(words[i]))
+                    list.add(words[i]);
+
+            }
+        }
+
+
+        return list;
+    }
+
+    public static char nextGreatestLetter(char[] letters, char target) {
+
+        Arrays.sort(letters);
+
+        for (int i = 0; i < letters.length; i++)
+        {
+            if (letters[i] > target)
+                return letters[i];
+        }
+
+        for (int i = 0; i < letters.length; i++)
+        {
+            if (letters[i] < target)
+                return letters[0];
+        }
+
+
+        return 'a';
+    }
+
+    public static boolean halvesAreAlike(String s) {
+
+        s = s.toLowerCase();
+
+        int halfOfWorld = s.length() / 2;
+
+        String firstWord = s.substring(0, halfOfWorld);
+        String secondWord = s.substring(halfOfWorld, s.length());
+
+        return amountOfVowels(firstWord) == amountOfVowels(secondWord);
+    }
+
+    public static int amountOfVowels(String str)
+    {
+        int count = 0;
+
+        char[] arr = str.toCharArray();
+
+        for (int i = 0; i < arr.length; i ++)
+        {
+            boolean match = arr[i] == 'a' || arr[i] == 'e' ||
+                    arr[i] == 'i' || arr[i] == 'o' || arr[i] == 'u';
+
+            if (match)
+                count++;
+        }
+        return count;
+    }
 }
